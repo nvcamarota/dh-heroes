@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <style>
+        #grad1 {
+          height: 50px;
+          background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(50, 150, 225));
+        }
+        </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +15,8 @@
 </head>
 
 <body>
-    <h1>Timothy Berners Lee</h1>
-    <img class="imagen-horizontal-Heroes" src="img/tim-berners-lee-www.jpg" alt="">
+    <h1><div id="grad1">Timothy Berners Lee</h1></div>
+    <div align="center"><img class="imagen-horizontal-Heroes" src="img/tim-berners-lee-www.jpg" alt="Tim Berners Lee"></div>
     <p>
         Timothy "Tim" John Berners-Lee (8 de junio de 1955), es un científico de la computación británico, conocido por
         ser el padre de la World Wide Web. Estableció la primera comunicación entre un cliente y un servidor usando el
@@ -26,17 +31,18 @@
         Es posible encontrar muchas de las ideas plasmadas por Berners-Lee en el proyecto Xanadú (que propuso Ted
         Nelson) y el memex (de Vannevar Bush).
     </p>
-    <li><a href="/babbage">Charles Babbage</a></li>
-    <li><a href="/clarke">Joan Clarke</a></li>
-    <li><a href="/hamilton">Margaret Hamilton</a></li>
-    <li><a href="/hopper">Grace Hopper</a></li>
-    <li><a href="/lovelace">Ada Lovelace</a></li>
-    <li><a href="/turing">Alan Turing</a></li>
-    <li><a href="/">Volver a la página principal</a></li>
-    </p>
-    <p>
-    <h5>Producido por Camarota, Nazarena (Digital House - 2022)</h5>
-    </p>
+    <ul>
+        <li><a href="/babbage">Charles Babbage</a></li>
+        <li><a href="/clarke">Joan Clarke</a></li>
+        <li><a href="/hamilton">Margaret Hamilton</a></li>
+        <li><a href="/hopper">Grace Hopper</a></li>
+        <li><a href="/lovelace">Ada Lovelace</a></li>
+        <li><a href="/turing">Alan Turing</a></li>
+        <li><a href="/">Volver a la página principal</a></li>
+    </ul>
+<nav>
+    <h5>Producido por Camarota, Nazarena (Estudiante de <a href="https://www.digitalhouse.com/" target="_blank"><img src="img/LogoHeader.svg" alt="Digital House Logo" width="10%"></a> - 2022)</h5>
+    </nav>
 </body>
 
 </html>

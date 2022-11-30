@@ -4,10 +4,12 @@ body {
 h1 {
     color: whitesmoke;
     font-family: 'Signika Negative', sans-serif;
+    text-align: center;
 }
 h3 {
     color: whitesmoke;
     font-family: 'Signika Negative', sans-serif;
+    text-align: center;
 }
 h5 {
     color: whitesmoke;
@@ -19,11 +21,11 @@ li {
 }
 a {
     color:rgb(50, 150, 225);
+    font-family: 'Signika Negative', sans-serif;
 }
 p {
     color: whitesmoke;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 2;
 }
 img.imagen-vertical-Heroes {
     height: 40%;

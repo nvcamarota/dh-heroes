@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <style>
+        #grad1 {
+          height: 50px;
+          background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(50, 150, 225));
+        }
+        </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +18,8 @@
 </head>
 
 <body>
-    <h1>Grace Hopper</h1>
-    <img class="imagen-horizontal-Heroes" src="img/grace-hopper.png" alt="">
+    <h1><div id="grad1">Grace Hopper</h1></div>
+    <div align="center"><img class="imagen-horizontal-Heroes" src="img/grace-hopper.png" alt="Grace Hopper"></div>
     <p>
         Grace Murray Hopper (9 de diciembre de 1906 - 1 de enero de 1992) fue una científica de la computación y militar
         estadounidense con grado de contraalmirante. Fue pionera en el mundo de las ciencias de la computación y la
@@ -24,17 +29,18 @@
         de COBOL, un lenguaje de alto nivel de programación que aún se utiliza. Era conocida por sus amistades como
         Amazing Grace.
     </p>
-    <li><a href="/babbage">Charles Babbage</a></li>
-    <li><a href="/berners-lee">Tim Berners Lee</a></li>
-    <li><a href="/clarke">Joan Clarke</a></li>
-    <li><a href="/hamilton">Margaret Hamilton</a></li>
-    <li><a href="/lovelace">Ada Lovelace</a></li>
-    <li><a href="/turing">Alan Turing</a></li>
-    <li><a href="/">Volver a la página principal</a></li>
-    </p>
-    <p>
-    <h5>Producido por Camarota, Nazarena (Digital House - 2022)</h5>
-    </p>
+    <ul>
+        <li><a href="/babbage">Charles Babbage</a></li>
+        <li><a href="/berners-lee">Tim Berners Lee</a></li>
+        <li><a href="/clarke">Joan Clarke</a></li>
+        <li><a href="/hamilton">Margaret Hamilton</a></li>
+        <li><a href="/lovelace">Ada Lovelace</a></li>
+        <li><a href="/turing">Alan Turing</a></li>
+        <li><a href="/">Volver a la página principal</a></li>
+    </ul>
+<nav>
+    <h5>Producido por Camarota, Nazarena (Estudiante de <a href="https://www.digitalhouse.com/" target="_blank"><img src="img/LogoHeader.svg" alt="Digital House Logo" width="10%"></a> - 2022)</h5>
+    </nav>
 </body>
 
 </html>
